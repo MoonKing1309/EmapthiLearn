@@ -1,0 +1,131 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar
+{
+    min-height: 60px;
+    width: 100vw;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    position: fixed;
+    box-shadow: 1px 1px 100px black;
+}
+
+.navLogo
+{
+    margin-left: 20px;
+}
+
+
+.navItems
+{
+    /* background-color: blue; */
+    margin-left: auto;
+    color: blue;
+    font-weight: 300;
+}
+
+.navItems a
+{
+    text-decoration: none;
+    color: orange;
+    padding: 20px;
+    font-weight: 800;
+}
+
+.navItems a:active{
+    color:blue;
+}
+
+
+.navButtons
+{
+    /* background-color: red; */
+    margin-left: auto;
+}
+
+.navButtons a
+{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0,149,255);
+    border: 1px rgb(0,149,255) solid;
+
+    
+}
+
+
+.navExpand
+{
+    display: none;
+}
+
+.navExpand button
+{
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 0px;
+    cursor: pointer;
+}
+@media screen and (max-width:580px) {
+
+    .navButtons
+    {
+        display: none;
+
+    }
+    .navItems
+    {
+        display: none;
+    }
+    .navExpand
+    {
+        display: inline-block;
+        margin-left: auto;
+    }
+   
+
+}
+
+#content{
+    padding-top:80px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    o{
+        color: orange;
+    }
+
+    bl{
+        color:blue;
+    }
+
+    p{
+        width: 500px;
+    }
+}
+
+.aboutContent{
+    h1{
+        color: orange;
+    }
+
+    h2{
+        color: blue;
+    }
+
+    h3{
+        color: red;
+    }
+
+    padding-bottom: 50px;
+}
